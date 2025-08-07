@@ -293,7 +293,7 @@
 /* Set configAPPLICATION_ALLOCATED_HEAP to 1 to have the application allocate
  * the array used as the FreeRTOS heap.  Set to 0 to have the linker allocate
  * the array used as the FreeRTOS heap.  Defaults to 0 if left undefined. */
-#define configAPPLICATION_ALLOCATED_HEAP             1
+#define configAPPLICATION_ALLOCATED_HEAP             0
 
 /* Set configSTACK_ALLOCATION_FROM_SEPARATE_HEAP to 1 to have task stacks
  * allocated from somewhere other than the FreeRTOS heap.  This is useful if you
@@ -363,7 +363,7 @@
  * configCHECK_FOR_STACK_OVERFLOW is set to 1. See
  * https://www.freertos.org/Stacks-and-stack-overflow-checking.html  Defaults to
  * 0 if left undefined. */
-#define configCHECK_FOR_STACK_OVERFLOW        2
+#define configCHECK_FOR_STACK_OVERFLOW        0
 
 /******************************************************************************/
 /* Run time and task stats gathering related definitions. *********************/

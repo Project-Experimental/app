@@ -4,7 +4,8 @@
 #ifdef __cplusplus
 extern "C" {
 #endif
-int main(int argc, char** argv);
+[[noreturn]] int main(int argc, char** argv);
+[[noreturn]] void _exit(int);
 #ifdef __cplusplus
 };
 #endif
